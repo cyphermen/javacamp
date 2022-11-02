@@ -39,7 +39,7 @@ public class InMemoryProgramingLanguagesRepository implements ProgramingLanguage
         for(ProgramingLanguages languages:programingLanguages){
             if(languages.getId() ==id){
 
-                programingLanguages.remove(programingLanguages.indexOf(languages));
+                programingLanguages.remove(languages);
             }
         }
     }
